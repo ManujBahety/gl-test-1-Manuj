@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    font-size: 20px;
+    padding: 30px;
+}
+.header{
+    color:black;
+    background-color: greenyellow;
+    padding: 20px;
+    width: 100%;
+}
+
+.footer{
+    color: black;
+    background-color: greenyellow;
+    padding: 20px;
+}
+.mid{
+    display:flex;
+}
+
+.nav{
+    background-color: lemonchiffon;
+    padding: 5px;
+    /* height: 30%; */
+    width: 30%;
+
+}
+.article{
+    height: 300px;
+    width: 40%;
+    padding: 5px;
+}
+
+.aside{
+    background-color: lemonchiffon;
+    padding: 5px;
+    height: 300px;
+    width: 30%;
+    justify-content: flex-end;
+}
